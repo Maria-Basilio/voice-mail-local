@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.DS_Store
+
+messages/*.wav
+messages/*.m4a
+messages/*.mp3
+messages/*.mp4
+
+output/*.wav
+output/*.txt
+
+*.json
+*.srt
+*.tsv
+*.vtt
