@@ -1,0 +1,7 @@
+openai-whisper
+pyttsx3
+sounddevice
+scipy
+torch
+transformers>=4.45,<5
+sentencepiece

@@ -1,16 +1,19 @@
+# Ambiente virtual
 .venv/
-__pycache__/
-.DS_Store
 
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos gerados pelo programa
 messages/*.wav
-messages/*.m4a
 messages/*.mp3
+messages/*.m4a
 messages/*.mp4
 
-output/*.wav
 output/*.txt
+output/*.wav
 
-*.json
-*.srt
-*.tsv
-*.vtt
+# Modelos/cache locais
+.cache/
+.huggingface/
